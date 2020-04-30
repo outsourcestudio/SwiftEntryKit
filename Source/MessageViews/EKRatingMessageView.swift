@@ -108,4 +108,9 @@ final public class EKRatingMessageView: UIView, EntryAppearanceDescriptor {
         layoutIfNeeded()
         buttonBarView.expand()
     }
+    
+    public func animateCustomIn() {
+        layoutIfNeeded()
+        buttonBarView.expand()
+    }
 }
